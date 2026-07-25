@@ -1,30 +1,26 @@
 # Twitch Chat Logger
 
-A simple Twitch chat logger that saves messages locally and optionally sends them to Discord.
+A simple Python tool that logs Twitch chat messages and can send them to a Discord webhook.
 
 ## Features
 
 - No Twitch bot account required
-- Uses a normal Twitch login
-- Logs chat messages
-- Sends messages to Discord webhook
-- Saves chat history
+- Uses your normal Twitch login
+- Reads live Twitch chat
+- Saves messages to a local text file
+- Sends chat messages to Discord using a webhook
+- Lightweight and easy to use
+
+## Requirements
+
+- Python 3.10+
+- Google Chrome
+- A Twitch account
+- A Discord webhook (optional)
 
 ## Installation
 
-Install requirements:
+Clone the repository:
 
-pip install -r requirements.txt
-
-## Setup
-
-1. Create a Discord webhook
-2. Add it to config.py
-3. Run:
-
-python main.py
-
-## Disclaimer
-
-This project uses browser automation to read Twitch chat.
-Twitch may change their website and break compatibility.
+```bash
+git clone https://github.com/BlueDev1222/twitch-chat-logger.git
